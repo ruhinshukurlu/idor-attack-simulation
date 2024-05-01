@@ -56,3 +56,7 @@ def user_profile(request, id):
         'user': user
     }
     return render(request, 'user_profile.html', context)
+
+
+def payment(request):
+    return render(request, 'payment.html')
